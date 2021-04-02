@@ -31,7 +31,7 @@ Also, this project was developed only for the need of a university course.
 
 
 #### MOBILE APP DEMO VIDEO
-[![Mobile App Demo Video]](https://user-images.githubusercontent.com/81809017/113428854-366cf600-93e0-11eb-8b1e-b2a42b13006f.mp4)
+![Mobile App Demo Video](https://user-images.githubusercontent.com/81809017/113428854-366cf600-93e0-11eb-8b1e-b2a42b13006f.mp4)
 
 
 
