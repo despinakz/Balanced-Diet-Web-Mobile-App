@@ -26,7 +26,12 @@ Also, this project was developed only for the need of a university course.
      1. Open Android Studio
      2. Import the *DietApp* file and run it
 
-### WEB APP DEMO VIDEO
+### DEMOS
+#### WEB APP DEMO VIDEO
 
 
-### MOBILE APP DEMO VIDEO
+#### MOBILE APP DEMO VIDEO
+
+https://user-images.githubusercontent.com/81809017/113428854-366cf600-93e0-11eb-8b1e-b2a42b13006f.mp4
+
+
