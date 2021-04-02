@@ -36,3 +36,4 @@ Also, this project was developed only for the need of a university course.
 
 <img src="https://user-images.githubusercontent.com/81809017/113430895-9dd87500-93e3-11eb-83e0-98ceaa9a0fa7.png" width="300" height="200">
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
