@@ -31,7 +31,8 @@ Also, this project was developed only for the need of a university course.
 
 
 #### MOBILE APP DEMO VIDEO
-    <video src="https://user-images.githubusercontent.com/81809017/113428854-366cf600-93e0-11eb-8b1e-b2a42b13006f.mp4" poster="BD_MobileApp.png" width="320" height="200" controls preload></video>
+    
+[![Watch the video](https://user-images.githubusercontent.com/81809017/113430895-9dd87500-93e3-11eb-83e0-98ceaa9a0fa7.png | 300x200)](https://user-images.githubusercontent.com/81809017/113428854-366cf600-93e0-11eb-8b1e-b2a42b13006f.mp4)
 
-
+<img src="https://user-images.githubusercontent.com/81809017/113430895-9dd87500-93e3-11eb-83e0-98ceaa9a0fa7.png" width="300" height="200">
 
