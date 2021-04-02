@@ -1,0 +1,361 @@
+/* CSS Style */
+
+/* The big lines below : devides different parts of CSS code (which used to the website) in order to make the code easy to read! */
+
+
+	
+/* ================================================================================================================== */
+	
+	/*Basic style for all the HTML document */
+	body{
+		/*font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;*/
+		line-height: 1.8;
+		/*color: #f5f6f7;*/
+	}
+	
+	/* style for <div> which has the class 'container-fluid' */
+	.container-fluid {
+		padding-top: 70px;
+		padding-bottom: 70px;
+		overflow-x:hidden;
+	}
+	
+/* ================================================================================================================== */
+	
+	/* Navigation Bar style 
+	nav{
+		background: black;
+		color: white;
+	}*/
+	
+/* ================================================================================================================== */
+	
+	/* 'Our Clients Said' Page style */
+	#clientsSaid{
+		background-color:#f2f2f2; /*242424*/
+		color:black;
+		
+	}
+	
+	/* 'Our Clients Said' Page --> quote card with background image */
+	#quote1{
+		background-image: url('../images/pink.jpg');
+		background-position: center;
+	}
+	
+	#quote2{
+		background-image: url('../images/lemon.jpg');
+		background-position: center;
+	}
+	
+	#quote3{
+		background-image: url('../images/kiwi.jpg');
+		background-position: center;
+	}
+	
+	/* 'Ou Clients Said' Page --> Blue quotes and footer for each client's review */
+	.fa-quote-left, .fa-quote-right, .blockquote-footer{
+		color:#8080ff;
+	}
+	
+/* ================================================================================================================== */
+	
+	/* 'Our Team' Page style */
+	#ourTeam{
+		background: white;
+	}
+	
+/* ================================================================================================================== */
+
+	/* 'FAQs' Page style */
+	#faqs{
+		background: #ccebff;
+	}
+	
+/* ================================================================================================================== */
+
+	/* 'Your BMI' Page style */
+	#bmi{
+		background: #ff9999;
+		
+	}
+	
+	/* 'Your BMI' Page --> Pomengranate Image */ 
+	#bmi img{
+		width:23%;
+		height:23%;
+	}
+	
+	/* 'Your BMI' Page --> adjust margin between BMI form input-fields */
+	#bmiInputGroup{
+		margin-left:25%;
+		margin-top:2%;
+	}
+	
+/* ================================================================================================================== */
+
+	/* 'Contact Us' Page style */
+	#contact{
+		/*background: black;*/
+		background-image: url('../images/abstractMinimalist.jpg');
+		background-position: center;
+	}
+	
+/* ================================================================================================================== */
+	
+	/* Footer Page style */
+	#footer{
+		padding-top: 60px; 
+		background-color: #F0F0F0; /* Black Gray */
+		color: #fff;
+	}
+	
+/* ================================================================================================================== */
+
+	/* 'Blog' Page --> adjust the size of media's images */
+	.media > img{
+		/*width:500px;
+		height:300px;*/
+		width:25%;
+		height:35%;
+	}
+	
+/* ================================================================================================================== */
+	
+	/* 'Who We Are?' Page --> carousel captions' style */
+	.carousel-caption{
+		background: rgba(120,120,120,0.4);
+		color:white;
+	}
+	
+/* ================================================================================================================== */
+	
+	/* Carousel (in 'Who We Are?' and 'Our Clients Said' Pages) adjust height & width */
+	.carousel-inner{
+		width:100%;
+		max-height:540px;
+	}
+	
+
+/* ================================================================================================================== */	
+	
+	/* Change the color of carousel ('Who We Are?' & 'Our Clients Said' carousels) arrows (next & prev arrows) */
+	.carousel-control-next-icon {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+	}
+
+	.carousel-control-prev-icon {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+	}
+	
+	/* Change the color of carousel indicators */
+	.carousel .carousel-indicators li {
+		background-color: #fff;
+		background-color: rgba(70, 70, 70, 0.25);
+	}
+
+	.carousel .carousel-indicators .active {
+	  background-color: #444;
+	}
+	
+/* ================================================================================================================== */
+	
+	/* ------------- Scrollbar CSS ------------- */	
+
+	/* width */
+	::-webkit-scrollbar {
+		width: 10px;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+		background: #f1f1f1; 
+	}
+
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: #888; 
+	}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+			background: #555; 
+	}
+	
+/* ================================================================================================================== */
+
+	/* ------------- MEDIA QUERIES ------------- */
+	/* Basically we used media queries to adjust '
+	We Are?' bootstrap carousel's captions and BMI form's input-size */
+	/* Media queries are based on Google Chrome Dev Tool device widths */
+	
+	/* ------- Mobile S (small) ------- */
+	@media only screen and (max-width: 320px){
+	  
+		.carousel-caption h3, .carousel-caption p {
+			font-size: 15px !important;
+		}
+		
+		#secondCarouselCaption{
+			font-size: 10px !important; 
+		}
+		
+		/*blockquote p, .card-body, article{
+			font-size: 13px;
+		}*/
+		
+		.carousel-caption{
+			bottom: 15%;
+		}
+		
+		#bmiForm input, #bmiForm button{
+			margin-top:2%;
+		}
+		
+		#bmi img{
+			width:40%;
+			height:40%;
+		}
+		
+		
+	}
+	
+	/* ------- Mobile M (medium) ------- */
+	@media only screen and (min-width: 321px) and (max-width: 375px) {
+	  
+		.carousel-caption h3, .carousel-caption p {
+			font-size: 15px;
+		}
+		
+		#secondCarouselCaption{
+			
+			font-size: 11px;
+		}
+		
+		.carousel-caption{
+			bottom: 23%;
+		}
+			
+		#bmiForm input, #bmiForm button{
+			margin-top:2%;
+		}
+		
+		#bmi img{
+			width:35%;
+			height:35%;
+		}
+	}
+	
+	/* ------- Mobile L (large) ------- */
+	@media only screen and (min-width: 376px) {
+	  
+		.carousel-caption h3, .carousel-caption p {
+			font-size: 17px;
+		}
+		
+		#secondCarouselCaption{
+			
+			font-size: 12px;
+		}
+		
+		.carousel-caption{
+			bottom: 25%;
+		}
+		
+		#bmiForm input, #bmiForm button{
+			margin-top:2%;
+		}
+		
+		#bmi img{
+			width:30%;
+			height:30%;
+		}
+		
+	}
+	
+	/* ------- Tablet ------- 
+	@media only screen and (min-width: 426px) and (max-width: 768px) {
+	  
+		.carousel-caption h3, .carousel-caption p {
+			font-size: 20px;
+		}
+		
+		#secondCarouselCaption{
+			
+			font-size: 20px;
+		}
+		
+		.carousel-caption{
+			bottom: 38%;
+		}
+		
+		#gender, #weight, #height, #calcBtn{
+			margin-left:38% !important;
+		}
+		
+		#weight, #height, #calcBtn{
+			margin-top:1% !important;
+		}
+		
+		#gender, #weight, #height{
+			width:600px !important;
+		}
+		
+	}*/
+	
+	/* ------- Laptop ------- */
+	@media only screen and (min-width: 768px) and (max-width: 1024px){
+	  
+		.carousel-caption h3, .carousel-caption p {
+			font-size: 20px;
+		}
+		
+		#secondCarouselCaption{
+			
+			font-size: 20px;
+		}
+		
+		.carousel-caption{
+			bottom: 45%;
+		}
+		
+		#gender{
+			margin-top:2% !important;
+		}
+		
+		#gender, #weight, #height{
+			width:500px !important;
+		}
+	}
+	
+	/* ------- Laptop L (large) ------- */
+	@media only screen and (min-width: 1025px) and (max-width: 1440px){
+	  
+		.carousel-caption{
+			bottom: 62%;
+		}
+		
+		#gender{
+			margin-top:2% !important;
+		}
+
+	}
+	
+	/* ------- 4K (e.g smart TVs) ------- */
+	@media only screen and (min-width: 1441px){
+	  
+		.carousel-caption{
+			bottom: 75%;
+		}
+		
+		#gender{
+			margin-top:2% !important;
+		}
+	}
+	
+/* ================================================================================================================== */
+	
+	/* Make the accordion headings (= our questions) responsive */
+	.accordionBtn {
+		white-space: normal;
+	}
