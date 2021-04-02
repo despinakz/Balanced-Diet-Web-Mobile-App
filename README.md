@@ -20,7 +20,6 @@ Also, this project was developed only for the need of a university course.
     4. Next step, is to save the file "Diet" @ your_path/xampp/htdocs
     5. Final step, open your browser (Google Chrome recommended) and write --> localhost/Diet/index.php or localhost/Diet
     
-    ![It's a wrap!](https://tenor.com/GagT.gif)
  - **DietApp** : Mobile App source code
  
      If you want to run the Mobile App you should follow the steps below:
