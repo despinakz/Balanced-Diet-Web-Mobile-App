@@ -1,6 +1,6 @@
 
 
-## Balanced-Diet-Web-Mobile-App
+## BalancedDietWeb-App
 This project is about developing a Web Application for an hypothetical Nutrition Center, called "Balanced Diet". 
 Also, this project was developed only for the need of a university course.  
 
