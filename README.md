@@ -15,7 +15,7 @@ Also, this project was developed only for the need of a university course.
     2. Select "Admin" action from "MySQL" module, and "phpMyAdmin" page is automatically opens in your browser
     3. Now, create a database named "diet" and import the "diet.sql" & your DB is ready!
     4. Next step, is to save the file "Diet" @ your_path/xampp/htdocs
-    5. Final step, open your browser (Google Chrome recommended) and write --> localhost/Diet/index.php or localhost/Diet-->
+    5. Final step, open your browser (Google Chrome recommended) and write  localhost/Diet/index.php or localhost/Diet -->
     
  
 ### WEB APP DEMO VIDEO :eyes: *[For watching: click image below]*
